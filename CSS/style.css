@@ -11,8 +11,9 @@ a{
    common css
 ================ */
 
-
-
+/* ==============
+   navbar start
+================ */
 .navbar{
     background: #1C1E53;
     padding: 16px !important;
@@ -49,3 +50,76 @@ a{
     color: black;
     border-color: transparent;
 }
+/* ==============
+   navbar start
+================ */
+/* ==============
+   banner start
+================ */
+ .banner{
+    background: #1C1E53;
+    padding-top: 126px;
+    padding-bottom: 157px;
+} 
+ .banner h1{
+    font-size: 54px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: 74px;
+    color: #ffff;
+
+ }
+ .banner p{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    color: #ffff;
+    padding-top: 24px;
+    padding-bottom: 48px;
+ }
+ .banner .banner-btn{
+    background: yellow;
+    color: #1B1C2B;
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 600;
+    border: 1px solid rgba(244, 246, 252, 0.2);
+    border-radius: 41px;
+    padding: 16px 56px;
+    transition: .5s;
+ }
+ .banner .banner-btn:hover{
+    background: transparent;
+    color: #BBBBCB;  
+}
+.banner .banner-btn2{
+    color: #ffff;
+    margin-left: 40px;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+
+}
+.banner .banner-btn2 i{
+    position: absolute;
+    top: 4px;
+    right: -21px;
+    opacity: 0;
+    transition: .4s;
+    visibility: hidden;
+
+}
+.banner .banner-btn2:hover i{
+    right: -45px;
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* ==============
+   banner start
+================ */
