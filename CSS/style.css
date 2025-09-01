@@ -118,8 +118,78 @@ a{
     opacity: 1;
     visibility: visible;
 }
+/* ================
+    banner end
+==================== */
+/* ================
+   project start
+==================== */
+.project{
+    background: #F4F6FC;
+    padding-top:128px;
+    padding-bottom: 128px;
+}
+.project h2{
+    width: 405px;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: 64px;
+    color: #282938;
+}
+.project p{
+    width: 405px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    color: #282938;
+    opacity: 70%;
+    padding: 16px 0px;
+}
+.project a{
+    width: 244px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 32px;
+    color: #2405F2;
+    position: relative;
+}
+.project .project-btn i{
+    position: absolute;
+    top: 4px;
+    right: -21px;
+    opacity: 0;
+    transition: .4s;
+    visibility: hidden;
+}
+.project .project-btn:hover i{
+    right: -45px;
+    opacity: 1;
+    visibility: visible;
+}
+.project .right h3{
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 48px;
+    color: #282938;
+    padding-top: 16px;
+}
+.project .right p{
+    width: 303px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    color: #282938;
+    opacity: 70%;
+    padding-bottom: 48px;
+}
 
 
-/* ==============
-   banner start
-================ */
+/* =================
+    project end
+==================== */
+
