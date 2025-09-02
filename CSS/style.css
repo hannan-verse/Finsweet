@@ -124,12 +124,12 @@ a{
 /* ================
    project start
 ==================== */
-.project{
+.work{
     background: #F4F6FC;
     padding-top:128px;
     padding-bottom: 128px;
 }
-.project h2{
+.work h2{
     width: 405px;
     font-size: 48px;
     font-weight: 600;
@@ -137,7 +137,7 @@ a{
     line-height: 64px;
     color: #282938;
 }
-.project p{
+.work p{
     width: 405px;
     font-size: 16px;
     font-weight: 400;
@@ -147,7 +147,7 @@ a{
     opacity: 70%;
     padding: 16px 0px;
 }
-.project a{
+.work a{
     width: 244px;
     font-size: 18px;
     font-weight: 500;
@@ -156,7 +156,7 @@ a{
     color: #2405F2;
     position: relative;
 }
-.project .project-btn i{
+.work .work-btn i{
     position: absolute;
     top: 4px;
     right: -21px;
@@ -164,20 +164,30 @@ a{
     transition: .4s;
     visibility: hidden;
 }
-.project .project-btn:hover i{
+.work .work-btn:hover i{
     right: -45px;
     opacity: 1;
     visibility: visible;
 }
-.project .right h3{
+.pointer{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+}
+.right{
+    width: 48%;
+    
+}
+.work .right h3{
     font-size: 32px;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
     line-height: 48px;
     color: #282938;
     padding-top: 16px;
+    padding-bottom: 8px;
 }
-.project .right p{
+.work .right p{
     width: 303px;
     font-size: 16px;
     font-weight: 400;
@@ -185,8 +195,9 @@ a{
     line-height: 28px;
     color: #282938;
     opacity: 70%;
-    padding-bottom: 48px;
+    padding: 0px !important;
 }
+
 
 
 /* =================
