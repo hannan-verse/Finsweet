@@ -122,7 +122,7 @@ a{
     banner end
 ==================== */
 /* ================
-   project start
+   work start
 ==================== */
 .work{
     background: #F4F6FC;
@@ -198,9 +198,57 @@ a{
     padding: 0px !important;
 }
 
+/* =================
+    work end
+==================== */
+/* =================
+    project start
+==================== */
+.project{
+    padding: 128px 0px;
+}
+.project .upper-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 64px;    
+      
+}
+.upper-part h2{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;  
+    color: #282938;
+}
+.project .project-btn{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    position: relative;
+}
+.project .project-btn i{
+    position: absolute;
+    top: 4px;
+    right: -21px;
+    opacity: 0;
+    transition: .4s;
+    visibility: hidden;
+}
+.project .project-btn:hover i{
+    right: -45px;
+    opacity: 1;
+    visibility: visible;
+}
+.box{
+
+}
 
 
 /* =================
     project end
 ==================== */
+
+
+
 
