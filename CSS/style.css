@@ -243,9 +243,7 @@ a{
 .project img{
     width: 100%;
 }
-.project img:nth-child(2){
-    margin-top: 22px;
-}
+/* ======first overlay======== */
 .project .parent-ani{
     position: relative;
     
@@ -292,7 +290,7 @@ a{
     opacity: 0;
     top: 0;
     left: 50%;
-    background: #1B1C2B;
+    background-image: linear-gradient(rgba(28, 30, 83, 0.42), #1C1E53);
     height: 100%;
     width: 50%;
     transition: 0.5s;
@@ -302,6 +300,104 @@ a{
     left: 0%;
     opacity: 1;
 } 
+
+/* ======second overlay======== */
+.project .parent2-ani{
+    position: relative;
+    overflow: hidden;   
+}
+.project .overlay2 h4{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    width: 292px;
+    line-height: 36px;
+}
+
+.project .overlay2 a{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #FCD980;
+    position: relative; 
+}
+ .project .overlay2 a i{
+    position: absolute;
+    top: 4px;
+    right: -25px;
+    opacity: 0;
+    transition: .4s;
+    visibility: hidden;
+} 
+ .project .overlay2 a:hover i{
+    opacity: 1;
+    right: -58px;
+    visibility: visible;
+} 
+.project .overlay2{
+    position: absolute;
+    
+    top: -100%;
+    left: 0;
+    background-image: linear-gradient(rgba(28, 30, 83, 0.42), #1C1E53);
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+    padding: 129px 36px 45px 56px ; 
+    
+}
+.project .parent2-ani:hover .overlay2{
+    top: 0%;
+}
+  /*============third overlay================ */
+.project .parent3-ani{
+    position: relative; 
+    margin-top: 22px;
+    overflow: hidden;  
+}
+.project .overlay3 h4{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    width: 292px;
+    line-height: 36px;
+}
+
+.project .overlay3 a{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #FCD980;
+    position: relative; 
+}
+ .project .overlay3 a i{
+    position: absolute;
+    top: 4px;
+    right: -25px;
+    opacity: 0;
+    transition: .4s;
+    visibility: hidden;
+} 
+ .project .overlay3 a:hover i{
+    opacity: 1;
+    right: -58px;
+    visibility: visible;
+} 
+.project .overlay3{
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    background-image: linear-gradient(rgba(28, 30, 83, 0.42), #1C1E53);
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+    padding: 129px 36px 45px 56px ;    
+}
+.project .parent3-ani:hover .overlay3{
+    bottom: 0%;
+}
 
 
 /* =================
