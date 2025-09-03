@@ -240,9 +240,68 @@ a{
     opacity: 1;
     visibility: visible;
 }
-.box{
-
+.project img{
+    width: 100%;
 }
+.project img:nth-child(2){
+    margin-top: 22px;
+}
+.project .parent-ani{
+    position: relative;
+    
+    
+}
+.project .overlay h4{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+.project .overlay p{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: rgba(255, 255, 255, 0.80);
+    padding-top: 16px;
+    padding-bottom: 40px;
+    line-height: 28px;
+    
+}
+.project .overlay a{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #FCD980;
+    position: relative; 
+}
+ .project .overlay a i{
+    position: absolute;
+    top: 4px;
+    right: -25px;
+    opacity: 0;
+    transition: .4s;
+    visibility: hidden;
+} 
+ .project .overlay a:hover i{
+    opacity: 1;
+    right: -58px;
+    visibility: visible;
+} 
+.project .overlay{
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 50%;
+    background: #1B1C2B;
+    height: 100%;
+    width: 50%;
+    transition: 0.5s;
+    padding: 312px 35px 76px 48px ;
+}
+.project .parent-ani:hover .overlay{
+    left: 0%;
+    opacity: 1;
+} 
 
 
 /* =================
