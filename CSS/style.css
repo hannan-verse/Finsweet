@@ -497,31 +497,51 @@ a{
 .comment .client{
     display: flex;
 }
-.comment logo{
-    padding-right: 14px;
+.comment .name{
+    padding-left: 14px;
 }
-.comment .name h6{
+ .comment .name h6{
     color: #282938;
     font-size: 18px;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
     line-height: 32px;
-    
-    
+    margin: 0px;   
 }
 .comment .name p{
     color: #282938;
     font-size: 12px;
     font-weight: 500;
     line-height: 28px;
-    font-family: "Poppins", sans-serif;   
-}
-.comment img{
-    height: 52px;
-    width: 52px;
+    font-family: "Poppins", sans-serif;
+    margin: 0px;   
 }
 /* =================
-    comment end
+    que start
+==================== */
+.que{
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+.que .bam h3{
+    color: #282938;
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: 56px; 
+    width: 328px;
+     padding-bottom: 16px;
+}
+.que .bam a {
+    color: #4025F4;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+   
+}
+/* =================
+      que end
 ==================== */
 
 
