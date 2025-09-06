@@ -539,6 +539,16 @@ a{
     font-family: "Poppins", sans-serif;
     line-height: 28px;  
 }
+.que a{
+    color: #282938;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 36px;  
+}
+.que .card{
+
+}
 /* ======================= */
 /* =================
       que end
@@ -616,9 +626,9 @@ a{
 .talk{
     background: #1C1E53;
     padding-top: 96px;
-    padding-bottom: 95px;
+    
 }
-.talk .left p{
+.talk .left .last{
     color: #ffff;
     font-size: 16px;
     font-weight: 500;
@@ -627,6 +637,38 @@ a{
     opacity: 80%;
     width: 399px;
     padding-top: 22px;
+    padding-bottom: 86px;
+}
+.talk .banner-small{
+    background: #FCD980;
+    width: 517px;
+    padding: 17px 137px 16px 37px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.talk .banner-small .move{
+    padding-left: 29px;
+
+}
+.talk .banner-small .first{
+    color: #282938;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 32px;
+
+}
+.talk .banner-small .second{
+    color: #282938;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    opacity: 80%;
+
+}
+.talk .right{
+    margin-left: 81px;
 }
 .talk .right p{
     color: #ffff;
@@ -636,7 +678,7 @@ a{
     line-height: 28px;
     opacity: 80%;
     width: 399px;
-    padding-bottom: 28px;
+    
 }
 .talk .right h3{
     color: #ffff;
@@ -656,6 +698,7 @@ a{
     border-radius: 5px;
     padding-top: 4px;
     padding-bottom: 4px;
+    margin-bottom: 95px;
 }
 .talk .icon .fb{
     padding-left: 72px;
@@ -682,11 +725,48 @@ a{
 .talk .icon .in:hover{
     color: #0C64C5;
 }
-
-
+/* ============== */
 
 /* =================
       talk end
+==================== */
+/* =================
+      last-part start
+==================== */
+.last-part{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.last-part p{
+    color: #282938;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+}
+ .last-part .navbar{
+    background: #ffffff;
+    padding: 16px !important;
+}
+.last-part .navbar .nav-link{
+    color: #282938;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    transition: .4s;
+    padding: 0px !important;
+}
+.last-part .navbar .navbar-nav{
+    column-gap: 32px;
+
+}
+.last-part .navbar .nav-item:hover .nav-link{
+    color: #000000;
+    transform: rotate(360deg);
+}
+
+/* =================
+      last-part start end
 ==================== */
 
 
