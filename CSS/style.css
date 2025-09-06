@@ -544,8 +544,151 @@ a{
       que end
 ==================== */
 /* =================
-      
+      blog start
 ==================== */
+.blog{
+    margin-top: 128px;
+    margin-bottom: 179px;
+}
+.blog h5{
+    color: #282938;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: 64px; 
+    padding-bottom: 64px; 
+}
+.blog .profile .date{
+    color: rgb(40, 41, 56);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    opacity: 70%;
+    padding-top: 40px;
+
+}
+.blog .profile .value{
+    color: #282938;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px; 
+    width: 405px;
+}
+.blog .profile .about{
+    color: #282938;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    opacity: 70%;
+    width: 405px;
+    padding-bottom: 32px;
+}
+.blog .profile a{
+    color: #282938;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    position: relative;
+}
+.blog .profile a i{
+    position: absolute;
+    top: 4px;
+    right: -20px;
+    transition: .4s;
+    opacity: 0;
+    visibility: hidden;
+}
+.blog .profile a:hover i{
+    right: -50px;
+    opacity: 1;
+    visibility: visible;
+}
+/* =================
+      blog end
+==================== */
+/* =================
+      talk start
+==================== */
+.talk{
+    background: #1C1E53;
+    padding-top: 96px;
+    padding-bottom: 95px;
+}
+.talk .left p{
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    opacity: 80%;
+    width: 399px;
+    padding-top: 22px;
+}
+.talk .right p{
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    opacity: 80%;
+    width: 399px;
+    padding-bottom: 28px;
+}
+.talk .right h3{
+    color: #ffff;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: 64px;
+    padding-bottom: 14px;
+}
+/* ========icon======= */
+.talk .icon .box{
+    display: flex;
+    column-gap: 26px;
+}
+.talk .icon{
+    background: #fff;
+    border-radius: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.talk .icon .fb{
+    padding-left: 72px;
+    transition: .4s;
+}
+.talk .icon .fb:hover{
+    color: #1877F2;
+}
+.talk .icon .twitter{
+    transition: .4s;
+}
+.talk .icon .twitter:hover{
+    color: #1a1414;
+}
+.talk .icon .insta{
+    transition: .4s;
+}
+.talk .icon .insta:hover{
+    color: #D804E3;
+}
+.talk .icon .in{
+    transition: .4s;
+}
+.talk .icon .in:hover{
+    color: #0C64C5;
+}
+
+
+
+/* =================
+      talk end
+==================== */
+
 
 
 
