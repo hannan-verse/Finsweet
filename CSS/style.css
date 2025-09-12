@@ -546,9 +546,47 @@ a{
     font-family: "Poppins", sans-serif;
     line-height: 36px;  
 }
-.que .card{
-
+/* ===========acordian============== */
+.que span{
+    padding-right: 55px;
+    color: #2405F2;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 36px;
 }
+.que .accordion-button{
+    padding-right: 55px;
+    color: #282938;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 36px;
+}
+.que .accordion-body p{
+    padding-right: 55px;
+    color: rgba(40, 41, 56, 0.87);
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 32px;
+    width: 624px;
+    margin-left: 80px;
+}
+.que .accordion-item {
+    border: 0px !important;
+}
+.que .accordion-button:not(.collapsed){
+    background-color: #ffff !important;
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 #ffff var(--bs-accordion-border-color) !important;
+}
+.accordion-button::after{
+    width: 0px;
+    height: 0px;
+    content: "+";
+    
+} 
+
 /* ======================= */
 
 /* =================
