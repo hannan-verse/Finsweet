@@ -564,11 +564,11 @@ a{
 .build .build-pic{
     position: relative;
 }
-.build .over{
+/* .build .over{
     background: #1C1E53;
     padding: 96px 96px 261px 96px;
     position: absolute;
-}
+} */
 .build .over h3{
     color:#ffff;
     font-size: 54px;
